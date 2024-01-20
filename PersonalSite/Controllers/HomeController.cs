@@ -33,9 +33,11 @@ namespace PersonalSite.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
+        // ABOUT
         public IActionResult About() { return View(); } 
+        // CONTACT 
         public IActionResult Contact() { return View(); }
+        // 
         [HttpPost]
         public IActionResult Contact(ContactViewModel cvm)
         {
@@ -107,13 +109,7 @@ namespace PersonalSite.Controllers
 
             return View("EmailConfirmation", cvm);
 
-
-
-
-
-
-
-            return View();
+            //return View();
         }
 
         public IActionResult Links() { return View(); }

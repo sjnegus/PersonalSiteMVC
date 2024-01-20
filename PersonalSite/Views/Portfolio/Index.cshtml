@@ -9,17 +9,17 @@
             <h1 class="fw-bolder">Personal Projects</h1>
             <p class="lead fw-normal text-muted mb-0">My Portfolio</p>
         </div>
-        <div class="row bg-dark rounded-3 py-5 gx-5 ">
+        <div class="row bg-dark shadow rounded py-5 gx-5 ">
             <div class="col-lg-6">
                 <div class="position-relative mb-5">
-                    <img class="img-fluid rounded-3 mb-3" src="/images/DD_Intro.png" alt="Intro screen of Dungeon Dweller." />
+                    <img class="img-fluid shadow rounded-3 mb-3" src="~/images/DD_Intro.png" alt="Intro screen of Dungeon Dweller." />
                     <a class="h3 fw-bolder  link-light stretched-link" href="@Url.Action("DungeonDweller", "Portfolio")">Dungeon Dweller </a>
                     <p class="text-light pt-3">Dungeon Dweller is a console app game in which you go through different rooms and fight monsters to help vanquish the evil in Underworld.</p>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="position-relative mb-5">
-                    <img class="img-fluid rounded-3 mb-3" src="~/images/MVC_Intro.png" alt="..." />
+                    <img class="img-fluid box-shadow rounded-3 mb-3" src="~/images/MVC_Intro.png" alt="..." />
                     <a class="h3 fw-bolder link-light stretched-link" href="@Url.Action("IntroToMVC", "Portfolio")">Core Sandbox</a>
                     <p class="text-light pt-3">
                         Core Sandbox is a Full Stack website created to be used as a reference when creating a website with MVC architecture. 
@@ -28,14 +28,14 @@
             </div>
             <div class="col-lg-6">
                 <div class="position-relative mb-5 mb-lg-0">
-                    <img class="img-fluid rounded-3 mb-3" src="/images/SQL_StoreFrontSchema.png" alt="..." />
+                    <img class="img-fluid shadow rounded-3 mb-3" src="~/images/SQL_StoreFrontSchema.png" alt="..." />
                     <a class="h3 fw-bolder link-light stretched-link" href="@Url.Action("DataWithSQL", "Portfolio")">Databases With SQL</a>
                     <p class="text-light pt-3">Here I showcase my work with SQL creating and managing Databases.</p>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="position-relative">
-                    <img class="img-fluid rounded-3 mb-3" src="/images/Centriq_black.jpg" alt="..." />
+                    <img class="img-fluid shadow rounded-3 mb-3" src="~/images/Centriq_black.jpg" alt="..." />
                     <a class="h3 fw-bolder link-light stretched-link" href="#!">Coming Soon</a>
                     <p class="text-light pt-3">Add description here</p>
                 </div>
@@ -46,6 +46,6 @@
 <section class="py-5 bg-light">
     <div class="container px-5 my-5">
         <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
-        <a class="btn btn-lg btn-primary" href="~/contact.html">Contact</a>
+        <a class="btn btn-lg btn-primary" asp-action="Contact" asp-controller="Home">Contact</a>
     </div>
 </section>
