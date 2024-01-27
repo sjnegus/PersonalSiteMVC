@@ -7,22 +7,23 @@
     <div class="container px-5 my-5">
         <div class="text-center mb-5" id="dd-text">
             <h1 class="fw-bolder">Personal Projects</h1>
-            <p class="lead fw-normal text-muted mb-0">My Portfolio</p>
+            <p class="lead fw-normal text-muted mb-0">Here are a few examples of the projects I have completed or am currently working on. To see more, check out my GitHub account! <a href="https://github.com/sjnegus"> <i class="fa fa-github"></i></a></p>
         </div>
         <div class="row bg-dark shadow rounded py-5 gx-5 ">
             <div class="col-lg-6">
                 <div class="position-relative mb-5">
                     <img class="img-fluid shadow rounded-3 mb-3" src="~/images/DD_Intro.png" alt="Intro screen of Dungeon Dweller." />
-                    <a class="h3 fw-bolder  link-light stretched-link" href="@Url.Action("DungeonDweller", "Portfolio")">Dungeon Dweller </a>
+                    <a class="h3 fw-bolder link-light stretched-link" href="@Url.Action("DungeonDweller", "Portfolio")">Dungeon Dweller </a>
+                    <a class="page-link link-primary" href="https://github.com/sjnegus/DungeonApp.git"><i class="fa fa-github"></i></a>
                     <p class="text-light pt-3">Dungeon Dweller is a console app game in which you go through different rooms and fight monsters to help vanquish the evil in Underworld.</p>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="position-relative mb-5">
-                    <img class="img-fluid box-shadow rounded-3 mb-3" src="~/images/MVC_Intro.png" alt="..." />
-                    <a class="h3 fw-bolder link-light stretched-link" href="@Url.Action("IntroToMVC", "Portfolio")">Core Sandbox</a>
+                    <img class="img-fluid box-shadow rounded-3 mb-3" src="~/images/StoreFront-Home.png" alt="..." />
+                    <a class="h3 fw-bolder link-light stretched-link" href="@Url.Action("IntroToMVC", "Portfolio")">Store Front Website</a>
                     <p class="text-light pt-3">
-                        Core Sandbox is a Full Stack website created to be used as a reference when creating a website with MVC architecture. 
+                        This site is still in progress. 
                     </p>
                 </div>
             </div>
@@ -49,3 +50,6 @@
         <a class="btn btn-lg btn-primary" asp-action="Contact" asp-controller="Home">Contact</a>
     </div>
 </section>
+@section Scripts {
+<script src="https://kit.fontawesome.com/9bdad48a66.js" crossorigin="anonymous"></script>
+}
